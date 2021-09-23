@@ -11,6 +11,6 @@ Podemos también crear un repositorio local que luego podemos sincronizar con un
 2. Nos cambiamos al directorio creado
 `cd hello-world`{{execute}}
 3. Inicializamos el repositorio
-`git init`
+`git init`{{execute}}
 4. Se creará un directorio con el nombre ".git"
-`ls -l .git`
+`ls -l .git`{{execute}}
