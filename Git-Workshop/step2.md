@@ -1,4 +1,4 @@
-##Agregando un archivo a nuestro repositorio##
+## Agregando un archivo a nuestro repositorio ##
 
 1. Creamos el archivo por ejemplo:
 `echo "Mi primer Repositorio" >>README.MD`{{execute}} podemos utilizar cualquier editor para crear el archivo por ejemplo `/hello-world/README.MD`{{open}}

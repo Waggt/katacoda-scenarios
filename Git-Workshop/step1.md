@@ -1,4 +1,4 @@
-##Clonar un repositorio remoto#
+## Clonar un repositorio remoto #
 Git nos permite clonar un repositorio existente ejecutando la siguiente instrucción:
 
 git clone [URL]
