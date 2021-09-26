@@ -24,7 +24,7 @@ Los archivos agregados al stage area son los que serán actualizados en el repos
 4. Para enviar los cambios del stage area al repositorio utilizamos **git commit -m [comentario]**:
 `git commit -m "Mi primer cambio confirmado"`{{execute}}
 
-4. En cualquier momento podemos comprobar el estado de nuestro trabajo con:
+5. En cualquier momento podemos comprobar el estado de nuestro trabajo con:
 `git satus`{{execute}}
 
 

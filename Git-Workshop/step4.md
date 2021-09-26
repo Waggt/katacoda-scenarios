@@ -12,7 +12,9 @@ Podemos crear una nueva rama con el comando **git branch[nombre_rama]**
 3. Ahora podemos cambiarnos a trabajar a la nueva rama
    `git checkout feature_task001`{{execute}}
 4. Con nuestro editor favorito modificamos el archivo app.js
+
 ```javascript
+
    const express = require('express')
    const app = express()
    const port = 80
@@ -22,9 +24,10 @@ Podemos crear una nueva rama con el comando **git branch[nombre_rama]**
    })
 
    app.listen(port, () => {
-   console.log(`Escuchando en: http://localhost:${port}`)
+   console.log('Escuchando en: http://localhost:',port)
   })
  ```
+
 5. Vemos el estado del repositorio
 `git satus`{{execute}}
 6. agregamos el archivo app.js al stage area
