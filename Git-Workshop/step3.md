@@ -8,20 +8,20 @@ Ahora que estamos listos para agregar archivos, agregaremos algunos de ellos.
 `vi /hello-world/README.MD`{{open}} para editarlo con vi.
 `git status`{{execute}} para ver el estado actual del repositorio.
 
-2. Creamos el archivo **.gitignore** con el editor de nuestra preferencia, dentro de este archivo agregaremos el listado de archivos que no queremos agregar a nuestro repositorio, por ejemplo archivos compilados, backups, etc.
+2. Creamos el archivo **.gitignore** `touch .gitignore`{{execute}} con el editor de nuestra preferencia, dentro de este archivo agregaremos el listado de archivos que no queremos agregar a nuestro repositorio, por ejemplo archivos compilados, backups, etc.
 `git status`{{execute}} para ver el estado actual del repositorio.
 
-3. Agregamos los archivos al stage area.
+3. Agregamos los archivos al staging area.
 `git add README.MD`{{execute}} 
 `git add .gitignore`{{execute}}
-
+<br/>
 Otras opciones son:
 a. `git add .`{{execute}} Agrega el directorio actual.
-b. `git add --all`{{execute}} Agrega archivos nuevos, modificados o eliminados al stage area.
+b. `git add --all`{{execute}} Agrega archivos nuevos, modificados o eliminados al staging area.
 
-Los archivos agregados al stage area son los que serán actualizados en el repositorio en el siguiente commit.
+Los archivos agregados al staging area son los que serán actualizados en el repositorio en el siguiente commit.
 
-4. Para enviar los cambios del stage area al repositorio utilizamos **git commit -m [comentario]**:
+4. Para enviar los cambios del staging area al repositorio utilizamos *git commit -m [comentario]*:
 `git commit -m "Mi primer cambio confirmado"`{{execute}}
 
 5. En cualquier momento podemos comprobar el estado de nuestro trabajo con:
@@ -31,7 +31,7 @@ Los archivos agregados al stage area son los que serán actualizados en el repos
 ### Ejercicio Práctico ###
 1. Crea un archivo llamado 'app.js'
 2. Crea un archivo llamado 'package.json'
-3. Modifica el archivo con las siguientes instrucciones.
+3. Modifica los archivos con las siguientes instrucciones.
 
    *app.js*
    ```javascript

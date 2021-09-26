@@ -1,37 +1,9 @@
-# Trabajando con Ramas - Primera parte #
-Una rama es una copia de la rama principal en la cual podemos trabajar sin afectar la rama principal.
-
-## Creando una Rama ##
-Podemos crear una nueva rama con el comando **git branch[nombre_rama]**
-
-## Pasos ##
-1. Creamos la rama ** feature_task001 **
-   `git branch feature_task001`{{execute}}
-2. Confirmamos que la rama fue creada
-   `git branch `{{execute}}
-3. Ahora podemos cambiarnos a trabajar a la nueva rama
-   `git checkout feature_task001`{{execute}}
-4. Con nuestro editor favorito modificamos el archivo app.js
-
-```javascript
-
-   const express = require('express')
-   const app = express()
-   const port = 80
-
-   app.get('/', (req, res) => {
-   res.send('Hola mundo!')
-   })
-
-   app.listen(port, () => {
-   console.log('Escuchando en: http://localhost:',port)
-  })
- ```
-
-5. Vemos el estado del repositorio
-`git satus`{{execute}}
-6. Agregamos el archivo app.js al stage area
-`git add app.js`{{execute}}
-7. Confirmamos los cambios con commit.
-`git commit -m "Paso 4"`{{execute}}
+# Configurando el repositorio remoto en GitHub #
+Para sincronizar nuestro trabajo con GitHub ejecutamos los siguientes pasos:
+1.  Renombramos la rama a main, para que coincida con la rama principal de GitHub.
+`git branch -M main`{{execute}}
+2. Agregamos el repositorio remoto con el nombre *origin*.
+`git remote add origin https://github.com/[USUARIO]/helo-world.git`
+3. Enviamos los cambios al repositorio remoto, la rama la rama main al repositorio remoto origin.
+`git push -u origin main`{{execute}}
 

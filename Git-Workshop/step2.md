@@ -17,6 +17,7 @@ En nuestro caso utilizaremos GitHub.
 ## Prerequisitos ##
 1. Git CLI instalado
 2. Usuario y correo electrónico configurados.
+2. Repositorio *hello-world* en Github creado
 
 ## Pasos ##
 1. Creamos un directorio
@@ -27,6 +28,7 @@ En nuestro caso utilizaremos GitHub.
 `git init`{{execute}}
 4. Se creará un directorio con el nombre ".git"
 `ls -l .git`{{execute}}
+
 
 Ahora que tenemos creado el directorio git podemos iniciar a trabajar con archivos y directorios de nuestro repositorio.
 
