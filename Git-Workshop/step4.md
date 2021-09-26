@@ -30,6 +30,8 @@ Podemos crear una nueva rama con el comando **git branch[nombre_rama]**
 
 5. Vemos el estado del repositorio
 `git satus`{{execute}}
-6. agregamos el archivo app.js al stage area
+6. Agregamos el archivo app.js al stage area
 `git add app.js`{{execute}}
+7. Confirmamos los cambios con commit.
+`git commit -m "Paso 4"`{{execute}}
 
