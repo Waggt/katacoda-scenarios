@@ -14,9 +14,10 @@ Ahora que estamos listos para agregar archivos, agregaremos algunos de ellos.
 3. Agregamos los archivos al stage area.
 `git add README.MD`{{execute}} 
 `git add .gitignore`{{execute}}
+
 Otras opciones son:
-`git add .`{{execute}} Agrega el directorio actual.
-`git add --all`{{execute}} Agrega archivos nuevos, modificados o eliminados al stage area.
+a. `git add .`{{execute}} Agrega el directorio actual.
+b. `git add --all`{{execute}} Agrega archivos nuevos, modificados o eliminados al stage area.
 
 Los archivos agregados al stage area son los que serán actualizados en el repositorio en el siguiente commit.
 
@@ -31,6 +32,7 @@ Los archivos agregados al stage area son los que serán actualizados en el repos
 1. Crea un archivo llamado 'app.js'
 2. Crea un archivo llamado 'package.json'
 3. Modifica el archivo con las siguientes instrucciones.
+
    *app.js*
    ```javascript
     console.log('hola mundo');
