@@ -6,4 +6,5 @@ Para sincronizar nuestro trabajo con GitHub ejecutamos los siguientes pasos:
 `git remote add origin https://github.com/[USUARIO]/helo-world.git`
 3. Enviamos los cambios al repositorio remoto, la rama la rama main al repositorio remoto origin.
 `git push -u origin main`{{execute}}
-
+4. Recordemos utilizar nuetro usuario de GitHub y como password el Personal Access Token guardado anteriormente.
+5. Verificamos en GitHub que el repositorio ha sido actualizado.

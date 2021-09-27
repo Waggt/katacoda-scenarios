@@ -13,7 +13,7 @@ Cambiemos entre rama y rama para ver como git actualiza nuestros archivos depend
 ## Pasos ##
 
 1. Nos cambiamos a la rama principal
- `git checkout master`{{execute}}
+ `git checkout main`{{execute}}
 2. Vemos el contenido de app.js
   `cat app.js`{{execute}}
 3. Ejecutamos la aplicación y comprobamos que es diferente a la rama *feature_task001*.
@@ -24,6 +24,9 @@ Cambiemos entre rama y rama para ver como git actualiza nuestros archivos depend
   `cat app.js`{{execute}}
 6. Ejecutamos la aplicación y comprobamos que escucha en el puerto 80.
    `node app.js`{{execute}}
-
+7. Enviamos la nueva rama al repositorio remoto en GitHub.
+`git push -u origin feature_task001`{{execute}}
+8. Comprobamos nuestro repositorio en GitHub para comprobar que se ha actualizado.
+ 
   
 Hemos comprobado lo facil que es cambiarse entre ramas y la velocidad con que git actualiza los archivos.
